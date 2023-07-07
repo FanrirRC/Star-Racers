@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlaneMovement : MonoBehaviour
 {
-    public static int movespeed = 4; //Affects Acceleration speed
+    public float movespeed = 4; //Affects Acceleration speed
     public float rotationSpeed = 40f; //Affects rotation speed
 
     void Update()
