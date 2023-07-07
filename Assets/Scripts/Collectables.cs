@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,23 +6,15 @@ using UnityEngine;
 public class Collectables : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider other)
+    public static event Action Oncollected;
+
+    void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
+            Oncollected?.Invoke();
             Debug.Log("You got a Point!");
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
-    }
-
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
     }
 }
