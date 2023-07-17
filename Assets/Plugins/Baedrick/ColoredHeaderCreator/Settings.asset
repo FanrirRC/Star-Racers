@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   headerSettings:
-    headerText: UI
-    headerColor: {r: 0.25490198, g: 0.08235294, b: 0.24705882, a: 1}
+    headerText: Collectables
+    headerColor: {r: 1, g: 0.047835372, b: 0.011764705, a: 1}
     textAlignmentOptions: 0
     fontStyleOptions: 0
     fontSize: 12

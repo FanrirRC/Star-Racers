@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3133266247864413633
+--- !u!1 &1992257048891570612
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2319434766620669819}
-  - component: {fileID: 1702239940065278174}
-  - component: {fileID: 3493497523702746132}
-  - component: {fileID: 2862865344527781083}
-  - component: {fileID: 2862865344527781080}
-  - component: {fileID: 2862865344527781084}
+  - component: {fileID: 1992257048891570608}
+  - component: {fileID: 1992257048891570611}
+  - component: {fileID: 1992257048891570610}
+  - component: {fileID: 1992257048891570606}
+  - component: {fileID: 1992257048891570607}
+  - component: {fileID: 9084969996987433564}
   m_Layer: 0
-  m_Name: Hoops
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2319434766620669819
+--- !u!4 &1992257048891570608
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3133266247864413633}
-  m_LocalRotation: {x: -0.6532815, y: 0.27059805, z: -0.27059805, w: 0.6532815}
-  m_LocalPosition: {x: 0, y: 0, z: 15.24}
-  m_LocalScale: {x: 250, y: 250, z: 250}
+  m_GameObject: {fileID: 1992257048891570612}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.366427, y: 0.84499764, z: -52.826897}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -45, y: 90, z: -90}
---- !u!33 &1702239940065278174
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1992257048891570611
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3133266247864413633}
-  m_Mesh: {fileID: 1865056248366311061, guid: 49bf18b6efee1d348aa4dc84deb3ee0d, type: 3}
---- !u!23 &3493497523702746132
+  m_GameObject: {fileID: 1992257048891570612}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1992257048891570610
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3133266247864413633}
+  m_GameObject: {fileID: 1992257048891570612}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,26 +86,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2862865344527781083
-BoxCollider:
+--- !u!135 &1992257048891570606
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3133266247864413633}
+  m_GameObject: {fileID: 1992257048891570612}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.005850571, y: 0.0001559425, z: 0.005556352}
-  m_Center: {x: 0.000000008702278, y: 6.673691e-22, z: -0.0000000128746}
---- !u!108 &2862865344527781080
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!108 &1992257048891570607
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3133266247864413633}
+  m_GameObject: {fileID: 1992257048891570612}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 2
@@ -161,15 +161,16 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &2862865344527781084
+--- !u!114 &9084969996987433564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3133266247864413633}
+  m_GameObject: {fileID: 1992257048891570612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b10a682e732ba604793f58228531341a, type: 3}
+  m_Script: {fileID: 11500000, guid: c1b03986e17ef8b40aab8ea14653b8d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nitroIncreaseAmount: 25

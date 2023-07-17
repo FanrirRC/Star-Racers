@@ -13,8 +13,7 @@ public class Collectables : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Oncollected?.Invoke();
-            Debug.Log("You got a Point!");
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
     }
 }
